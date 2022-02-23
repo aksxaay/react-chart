@@ -20,7 +20,7 @@ class SunWrapper extends React.Component {
       .label("name")
       .size("size")
       .color("color")
-      .width("400")
+      .width("600")
       .tooltipContent((d, node) => `<i>${node.value}</i>`)(this.myRef.current);
   }
 

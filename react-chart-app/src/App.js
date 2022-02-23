@@ -3,7 +3,7 @@ import "./App.css";
 
 import React from "react";
 import ReactDOM from "react-dom";
-import SunWrapper from "./SunWrapper";
+import SunWrapper from "./SunWrapper.js";
 
 function App() {
   return (
