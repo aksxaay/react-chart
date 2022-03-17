@@ -40,3 +40,12 @@ Have to try and Classify the languages I know.
 
 
 `/home/axsae/Desktop/to-self-with-love/talents` this has all the things I kinda know about lol.
+
+`reportWebVitals` 
+[Measuring Performance](https://create-react-app.dev/docs/measuring-performance/)
+
+oh I just noticed there's a `reportWebVitals.js` in the src directory
+
+
+migrating CRA(Create React App) to Next.js Application - [migration](https://nextjs.org/docs/migrating/from-create-react-app)
+is a proper guide that I can use perhaps?
