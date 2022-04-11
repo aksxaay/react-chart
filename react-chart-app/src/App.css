@@ -37,7 +37,6 @@
   }
 }
 
-
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -51,8 +50,7 @@
   stroke-width: 0;
 }
 
-
 .main-title {
-  padding-top: 1em;
+  /* padding-top: 1em; */
   text-align: center;
 }

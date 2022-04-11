@@ -4,4 +4,5 @@ module.exports = {
     extend: {}
   },
   plugins: []
+  // tailwindConfig: "./styles/tailwind.config.js"
 };
