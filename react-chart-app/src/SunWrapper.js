@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import SunburstChart from "./SunburstChart";
 import Sunburst from "sunburst-chart";
 import data from "./data-color";

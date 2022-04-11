@@ -19,15 +19,14 @@ export default {
                 {
                   name: "AMV's",
                   color: "#2C9E4B",
-                  size: 60,
+                  size: 60
                 },
                 {
                   name: "Motion Graphics",
                   color: "#2C9E4B",
-                  size: 50,
-                },
-              
-              ],
+                  size: 50
+                }
+              ]
             },
             {
               name: "Photoshop",
@@ -37,13 +36,13 @@ export default {
                 {
                   name: "GFX",
                   color: "#2C9E4B",
-                  size: 60,
+                  size: 60
                 },
                 {
                   name: "Album Art",
                   color: "#2C9E4B",
-                  size: 20,
-                },
+                  size: 20
+                }
               ]
             },
             {
@@ -60,7 +59,7 @@ export default {
               name: "Premiere Pro",
               color: "#2C9E4B",
               size: 30
-            },
+            }
           ]
         },
         {
@@ -84,7 +83,7 @@ export default {
             }
           ]
         },
-        
+
         {
           name: "Davinci Resolve",
           color: "#9ED763",
@@ -109,15 +108,14 @@ export default {
             {
               name: "Linux Mint",
               color: "#EE3711",
-              size: 50,
+              size: 50
             },
             {
               name: "Kali Linux",
               color: "#EE3711",
-              size: 50,
-            },
-            
-          ],
+              size: 50
+            }
+          ]
         },
         {
           name: "Python",
@@ -127,9 +125,9 @@ export default {
             {
               name: "Selenium",
               color: "#EE3711",
-              size: 50,
-            },
-          ],
+              size: 50
+            }
+          ]
         },
         {
           name: "Web Dev",
@@ -139,43 +137,41 @@ export default {
             {
               name: "HTML + CSS",
               color: "#EE3711",
-              size: 50,
+              size: 50
             },
             {
               name: "Javascript",
               color: "#EE3711",
-              size: 30,
+              size: 30
             },
             {
               name: "React.js",
               color: "#EE3711",
-              size: 20,
+              size: 20
             },
             {
               name: "Next.js",
               color: "#EE3711",
-              size: 20,
-            },
+              size: 20
+            }
           ]
         },
         {
           name: "C++",
           color: "#EE3711",
           size: 15,
-          children: [
-          ]
+          children: []
         },
         {
           name: "Solidity",
           color: "#EE3711",
-          size: 10,
+          size: 10
         },
         {
           name: "Shell Scripting",
           color: "#EE3711",
-          size: 20,
-        },
-        
+          size: 20
+        }
       ]
     }
   ]
