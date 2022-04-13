@@ -63,3 +63,15 @@ well I'm stuck sitting ducks so fuck me ig.
 I need to get back to javascript and how they work.
 
 no matter where I import it I can't get to use the `useScript`
+
+
+I can't get `react-router-dom` to work at all like bruh, 
+
+learning how to react route from gfg
+
+I added all the things I knew and it still doesn't work.
+
+this is weird routes, because we're still on different routes but nothing much changed for some reason.
+the layout still remains the same.
+
+![first bad routes implementation](routes-implementation.png)
