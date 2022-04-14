@@ -89,3 +89,5 @@ I can't figure out how these shits work.
 had to commend out the `Link` tag in `main.jsx`
 
 none of the Link shits work at all.
+
+when I change it to `Routes` it somehow works ayo what

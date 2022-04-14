@@ -9,11 +9,9 @@ import Contact from "./contact";
 const Navbar = () => {
   return (
     <>
-      {/* <Router>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/contact" element={<Contact />} />
-      </Router> */}
+      <Routes exact path="/" element={<Home />} />
+      <Routes exact path="/about" element={<About />} />
+      {/* <Route exact path="/contact" element={<Contact />} /> */}
       <div className="m-5 border-2 border-purple-400">
         <ul>
           <li>{/* <Link to="/">Home</Link> */}</li>

@@ -13,8 +13,10 @@ import Main from "./pages/main";
 function App() {
   return (
     <>
-      <Navbar />
-      <Main />
+      <Router>
+        <Navbar />
+        <Main />
+      </Router>
     </>
   );
 }

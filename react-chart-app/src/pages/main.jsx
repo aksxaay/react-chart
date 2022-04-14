@@ -51,7 +51,7 @@ function Main() {
             <div className="m-[2em] h-full border-y-8 p-[2em]">
               <Button variant="contained">Sign In</Button>
               <Button variant="contained">
-                {/* <Link to="/expenses">Link change to expenses</Link> */}
+                <Link to="/expenses">Link change to expenses</Link>
               </Button>
             </div>
             <SunWrapper />
