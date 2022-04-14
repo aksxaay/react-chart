@@ -75,3 +75,17 @@ this is weird routes, because we're still on different routes but nothing much c
 the layout still remains the same.
 
 ![first bad routes implementation](routes-implementation.png)
+
+I can't get the navbar to work bruh ripp
+
+we need the `exact` keyword
+
+
+--- 
+14th April
+
+I can't figure out how these shits work.
+
+had to commend out the `Link` tag in `main.jsx`
+
+none of the Link shits work at all.
