@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
+      <h1 className="flex  justify-center text-slate-700">NavBar</h1>
+
       <div className="flex items-center justify-center">
         <div className="m-5 flex h-40 w-40 items-center justify-center border-2 border-purple-400">
-          <ul>
+          <ul className="text-center">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -20,10 +22,12 @@ const Navbar = () => {
               <Link to="/contact">Contact Us</Link>
             </li>
             <hr className="border-2" />
+            <li>
+              <Link to="/react-bootstrap">React Bootstrap</Link>
+            </li>
           </ul>
         </div>
       </div>
-      <h1 className="flex justify-center">Heya</h1>
     </>
   );
 };

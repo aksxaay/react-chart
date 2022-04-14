@@ -8,14 +8,12 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Essential Components
 import Navbar from "./components/navbar";
-import Main from "./pages/main";
-
-// Routes
-// import Main from "./pages/main";
-import Home from "./components/home";
-
 import About from "./components/about";
 import Contact from "./components/contact";
+import Home from "./components/home";
+
+import Main from "./pages/main";
+import ReactBootstrap from "./pages/reactBootstrap.jsx";
 
 function App() {
   return (
@@ -27,8 +25,9 @@ function App() {
           <Route exact path="/main" element={<Main />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
+
+          <Route exact path="/react-bootstrap" element={<ReactBootstrap />} />
         </Routes>
-        {/* <Main /> */}
       </Router>
     </>
   );

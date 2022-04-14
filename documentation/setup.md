@@ -97,3 +97,18 @@ nvm somehow it is now working, I just had to shift the `Router (BrowserRouter) b
 
 
 finally fixed routing.
+
+
+### 2. React Bootstrapp
+- this library does individual imports unlike straight up bootstrap. hence keeping the bundle size low enough.
+
+
+ooh this is easy enough to mess up goddamn.
+
+
+this thing's documentation fucking sucks.
+
+`react-bootstrap` is fucking up with `tailwind`.
+react bootstrap has its own tailwind like syntax
+
+tailwind is a very integral part of my stack so idk if I want to part ways with it LOL.
