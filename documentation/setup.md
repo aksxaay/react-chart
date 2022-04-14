@@ -91,3 +91,9 @@ had to commend out the `Link` tag in `main.jsx`
 none of the Link shits work at all.
 
 when I change it to `Routes` it somehow works ayo what
+
+
+nvm somehow it is now working, I just had to shift the `Router (BrowserRouter) back to its original place.`
+
+
+finally fixed routing.
