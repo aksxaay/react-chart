@@ -25,6 +25,10 @@ const Navbar = () => {
             <li>
               <Link to="/react-bootstrap">React Bootstrap</Link>
             </li>
+
+            <li>
+              <Link to="/tailwind-experiments">Tailwind Experiments</Link>
+            </li>
           </ul>
         </div>
       </div>

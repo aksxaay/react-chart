@@ -1,6 +1,5 @@
 import React from "react";
 
-// react bootstrap components
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.css";
 import Container from "react-bootstrap/Container";

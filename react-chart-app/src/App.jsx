@@ -14,6 +14,7 @@ import Home from "./components/home";
 
 import Main from "./pages/main";
 import ReactBootstrap from "./pages/reactBootstrap.jsx";
+import TailwindExperiments from "./pages/tailwindExperiments";
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
 
           <Route exact path="/react-bootstrap" element={<ReactBootstrap />} />
+          <Route
+            exact
+            path="/tailwind-experiments"
+            element={<TailwindExperiments />}
+          />
         </Routes>
       </Router>
     </>

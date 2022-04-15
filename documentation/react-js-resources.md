@@ -114,3 +114,6 @@ Montserrat
 Helvetica
 
 Just realized obsidian uses the inter font as well. crazy.
+
+it is **NOT** recommended to run tailwind + bootstrap there will be class collisions.
+

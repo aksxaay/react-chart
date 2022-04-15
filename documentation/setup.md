@@ -112,3 +112,9 @@ this thing's documentation fucking sucks.
 react bootstrap has its own tailwind like syntax
 
 tailwind is a very integral part of my stack so idk if I want to part ways with it LOL.
+
+the conflict, so commenting this exact line switches between both of them.
+
+[line to comment](../react-chart-app/src/pages/reactBootstrap.jsx#L4)
+
+for tailwind to take back.
