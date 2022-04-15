@@ -27,7 +27,10 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link to="/tailwind-experiments">Tailwind Experiments</Link>
+              <Link to="/tailwind-experiments">twind exp</Link>
+            </li>
+            <li>
+              <Link to="/tailwind-experiments2">twind exp 2</Link>
             </li>
           </ul>
         </div>

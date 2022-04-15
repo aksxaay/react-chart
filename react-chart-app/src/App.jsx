@@ -15,6 +15,7 @@ import Home from "./components/home";
 import Main from "./pages/main";
 import ReactBootstrap from "./pages/reactBootstrap.jsx";
 import TailwindExperiments from "./pages/tailwindExperiments";
+import TailwindExperiments2 from "./pages/tailwindExperiments2";
 
 function App() {
   return (
@@ -32,6 +33,12 @@ function App() {
             exact
             path="/tailwind-experiments"
             element={<TailwindExperiments />}
+          />
+
+          <Route
+            exact
+            path="/tailwind-experiments2"
+            element={<TailwindExperiments2 />}
           />
         </Routes>
       </Router>

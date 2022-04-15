@@ -118,3 +118,20 @@ the conflict, so commenting this exact line switches between both of them.
 [line to comment](../react-chart-app/src/pages/reactBootstrap.jsx#L4)
 
 for tailwind to take back.
+
+
+implemented a basic UI front end ish LMFAO.
+
+
+tailwindui is super basic and very limited can't even be using this unless I absolutely can't find anything else.
+
+I will run into factoring issues where I won't be able to factor my code at all LMFAO. but let's try.
+
+so basically the plan is to have an all import syntax as described in these links
+
+[react import components](https://stackoverflow.com/questions/46984955/how-to-import-all-components-in-react)
+
+and 
+
+[es6 importing and exporting](https://stackoverflow.com/questions/34072598/es6-exporting-importing-in-index-file)
+ ez clap
