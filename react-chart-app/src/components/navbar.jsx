@@ -32,6 +32,9 @@ const Navbar = () => {
             <li>
               <Link to="/tailwind-experiments2">twind exp 2</Link>
             </li>
+            <li>
+              <Link to="/react-markdown">react-markdown</Link>
+            </li>
           </ul>
         </div>
       </div>

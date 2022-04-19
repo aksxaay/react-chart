@@ -43,7 +43,11 @@ function TailwindExperiments() {
         <Disclosure as="nav" className="bg-gray-800">
           {({ open }) => (
             <>
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <style>
+                @import
+                url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+              </style>
+              <div className="font-inter mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
@@ -206,7 +210,9 @@ function TailwindExperiments() {
 
         <header className="bg-white shadow">
           <div className="mx-auto flex max-w-7xl justify-center py-6 px-4 align-middle transition duration-300 ease-linear hover:scale-105 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+            <h1 className="font-inter text-3xl font-bold text-gray-900">
+              Dashboard
+            </h1>
           </div>
         </header>
         <main>

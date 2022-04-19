@@ -135,3 +135,33 @@ and
 
 [es6 importing and exporting](https://stackoverflow.com/questions/34072598/es6-exporting-importing-in-index-file)
  ez clap
+
+ I just noticed that the way tuk ui kit implements the dash board is kinda insane, at-least the tailwind ui code was kinda beautiful.
+
+ it did javascript objects
+
+
+ I'm going to try and change the font on the first 
+ tailwindexperiment page.
+
+ just did font enabling for tailwind, but I have problem determinig weights.
+
+ also fonts don't apply by default everywhere LMFAO.
+
+ i have to change the default font-serif setting.
+
+ default
+
+ base font in tailwind-config [base font // stackoverflow](https://stackoverflow.com/questions/60692794/can-you-change-the-base-font-family-in-tailwind-config)
+
+
+ I did some more changes but still can't understand how to default change all font to be based on inter.
+
+ okay literallyy unable fuck me.
+
+
+ fuck it I can't do tailwind config, might as well figure out how the react-markdown works.
+
+
+### react-markdown.
+didn't render for some reason.

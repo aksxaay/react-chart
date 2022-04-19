@@ -1,6 +1,6 @@
 import React from "react";
 
-import * as Tailwind from "../components/tailwind";
+import * as Tailwind from "../components/tailwind/index";
 
 function TailwindExperiments2() {
   return (

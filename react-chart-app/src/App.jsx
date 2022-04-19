@@ -16,6 +16,7 @@ import Main from "./pages/main";
 import ReactBootstrap from "./pages/reactBootstrap.jsx";
 import TailwindExperiments from "./pages/tailwindExperiments";
 import TailwindExperiments2 from "./pages/tailwindExperiments2";
+import ReactMarkdownComp from "./pages/reactMarkdownComp";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
             path="/tailwind-experiments2"
             element={<TailwindExperiments2 />}
           />
+
+          <Route exact path="/react-markdown" element={<ReactMarkdownComp />} />
         </Routes>
       </Router>
     </>
