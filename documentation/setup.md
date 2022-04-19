@@ -165,3 +165,8 @@ and
 
 ### react-markdown.
 didn't render for some reason.
+
+yeah so certain things work like bold and italics I wasn't noticing hard enough my bad, but anything else is a no go.
+
+
+I just had to install ``remark-gfm so that fixed things asap.

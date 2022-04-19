@@ -5,10 +5,16 @@ import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
+import remarkGfm from "remark-gfm";
+
 // Did you know you can use tildes instead of backticks for code in markdown? ✨
 const markdown = `A paragraph with *emphasis* and **strong importance**.
 
 > A block quote with ~strikethrough~ and a URL: https://reactjs.org.
+
+**strong boi**
+
+- bullet points
 
 * Lists
 * [ ] todo
@@ -21,32 +27,7 @@ A table:
 `;
 
 function ReactMarkdownComp() {
-  return (
-    <>
-      <div>ReactMarkdown</div>
-      <ReactMarkdown
-        children={markdown}
-        components={{
-          code({ node, inline, className, children, ...props }) {
-            const match = /language-(\w+)/.exec(className || "");
-            return !inline && match ? (
-              <SyntaxHighlighter
-                children={String(children).replace(/\n$/, "")}
-                style={dark}
-                language={match[1]}
-                PreTag="div"
-                {...props}
-              />
-            ) : (
-              <code className={className} {...props}>
-                {children}
-              </code>
-            );
-          }
-        }}
-      />
-    </>
-  );
+  return <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />;
 }
 
 export default ReactMarkdownComp;
