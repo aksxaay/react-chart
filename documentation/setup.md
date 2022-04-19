@@ -170,3 +170,15 @@ yeah so certain things work like bold and italics I wasn't noticing hard enough 
 
 
 I just had to install ``remark-gfm so that fixed things asap.
+
+
+now I have to figure out other things.
+
+how to make this properly workable on my portfolio website LOL.
+
+
+I just have to practice javascript promises and shit.
+
+I don't understand react enough for me to understand how exactly I can pass these variables on to this children attribute
+
+okay finally understood responses and shii

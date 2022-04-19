@@ -7,27 +7,28 @@ import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import remarkGfm from "remark-gfm";
 
+import raw from "../docs/sample.md";
+
 // Did you know you can use tildes instead of backticks for code in markdown? ✨
-const markdown = `A paragraph with *emphasis* and **strong importance**.
 
-> A block quote with ~strikethrough~ and a URL: https://reactjs.org.
+console.log("about to fetch response");
 
-**strong boi**
+const ReactMarkdownComp = () => {
+  const markdown = fetch(raw)
+    .then((response) => {
+      console.log(response);
+      return response.text();
+    })
+    .then((response) => {
+      console.log(response);
 
-- bullet points
-
-* Lists
-* [ ] todo
-* [x] done
-
-A table:
-
-| a | b |
-| - | - |
-`;
-
-function ReactMarkdownComp() {
-  return <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />;
-}
+      return response;
+    });
+  return (
+    <>
+      <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
+    </>
+  );
+};
 
 export default ReactMarkdownComp;
