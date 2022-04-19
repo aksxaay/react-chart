@@ -15,15 +15,8 @@ console.log("about to fetch response");
 
 const ReactMarkdownComp = () => {
   const markdown = fetch(raw)
-    .then((response) => {
-      console.log(response);
-      return response.text();
-    })
-    .then((response) => {
-      console.log(response);
-
-      return response;
-    });
+    .then((response) => response.text())
+    .then((response) => response);
   return (
     <>
       <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
