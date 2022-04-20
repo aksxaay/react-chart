@@ -182,3 +182,16 @@ I just have to practice javascript promises and shit.
 I don't understand react enough for me to understand how exactly I can pass these variables on to this children attribute
 
 okay finally understood responses and shii
+
+
+man there's so much complexity is javascript I really have to revisit it's basics and then come to this shi.
+
+[markdown importing // stackoverflow](https://stackoverflow.com/questions/42928530/how-do-i-load-a-markdown-file-into-a-react-component)
+
+my replacement is the `useEffect` hook since it's to do with fetchin
+
+
+woah dude I actually fixed them shits dude that's fucking crazy.
+
+
+for some reason it console displays twice so that's a lol.

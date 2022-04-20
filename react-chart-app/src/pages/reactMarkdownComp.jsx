@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import ReactDom from "react-dom";
 import ReactMarkdown from "react-markdown";
@@ -11,15 +11,22 @@ import raw from "../docs/sample.md";
 
 // Did you know you can use tildes instead of backticks for code in markdown? ✨
 
-console.log("about to fetch response");
-
 const ReactMarkdownComp = () => {
-  const markdown = fetch(raw)
-    .then((response) => response.text())
-    .then((response) => response);
+  const [termsFrPath, settermsFrPath] = useState(null);
+  useEffect(() => {
+    console.log("about to fetch response");
+
+    const markdown = fetch(raw)
+      .then((response) => response.text())
+      .then((markdown) => {
+        console.log(markdown);
+        settermsFrPath(markdown);
+      });
+  });
+
   return (
     <>
-      <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
+      <ReactMarkdown children={termsFrPath} remarkPlugins={[remarkGfm]} />
     </>
   );
 };
