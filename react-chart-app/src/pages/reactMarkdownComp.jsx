@@ -6,6 +6,11 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import remarkGfm from "remark-gfm";
+import remarkCodesandbox from "remark-codesandbox";
+
+import rehypeRaw from "rehype-raw";
+import rehypeHighlight from "rehype-highlight";
+import rehypeSanitize from "rehype-sanitize";
 
 import raw from "../docs/sample.md";
 
@@ -22,11 +27,15 @@ const ReactMarkdownComp = () => {
         console.log(markdown);
         settermsFrPath(markdown);
       });
-  });
+  }, []);
 
   return (
     <>
-      <ReactMarkdown children={termsFrPath} remarkPlugins={[remarkGfm]} />
+      <ReactMarkdown
+        children={termsFrPath}
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={([rehypeHighlight], [rehypeSanitize], [rehypeRaw])}
+      />
     </>
   );
 };

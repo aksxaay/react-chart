@@ -195,3 +195,9 @@ woah dude I actually fixed them shits dude that's fucking crazy.
 
 
 for some reason it console displays twice so that's a lol.
+
+
+What if I converted the md, to mdx, so that it translates better?
+
+
+there's also a code sandbox viewer plugin `remark-codesandbox`
